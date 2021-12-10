@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState, useRef } from 'react';
 
 export default function Counter() {
     const [count, setCount] = useState(0)
@@ -16,5 +16,5 @@ export default function Counter() {
           onClick={() => setCount((c) => c + 1)}>+1</button>
       </div>
     )
-  }
+}
 
